@@ -44,4 +44,5 @@ Rails.application.configure do
   config.assets.compress = false
   config.assets.debug = false
   config.assets.digest = false
+  config.assets.check_precompiled_asset = false
 end
